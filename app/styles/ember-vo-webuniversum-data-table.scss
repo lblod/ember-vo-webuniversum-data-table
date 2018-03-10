@@ -1,0 +1,13 @@
+@import 'ember-data-table';
+
+table.data-table {
+  thead {
+    .sortable {
+      &:not(.sorted):hover {
+        span::before {
+          content: unset;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+<a class="data-table__header-title--sortable {{if isSorted " data-table__header-title--sortable-active"}}" {{action 'inverseSorting'}}>
+  {{label}}
+  {{#if (eq order "desc")}}
+    <span class="u-visually-hidden">Oplopend sorteren</span>
+    {{wu-icon "vi-long-arrow" class="data-table__header-title__sort-icon vi-u-link-after"}}
+  {{else}}
+    <span class="u-visually-hidden">Aflopend sorteren</span>
+    {{wu-icon "vi-long-arrow" class="data-table__header-title__sort-icon vi-u-link-after vi-u-180deg"}}
+  {{/if}}
+</a>

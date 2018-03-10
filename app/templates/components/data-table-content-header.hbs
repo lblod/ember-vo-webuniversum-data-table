@@ -1,0 +1,15 @@
+<tr class="data-table__header">
+  {{#if enableSelection}}
+    <th class="data-table__header-title"><!-- Checkbox --></th>
+  {{/if}}
+  {{#if enableLineNumbers}}
+    <th class="data-table__header-title"><!-- Linenumbers --></th>
+  {{/if}}
+  {{#if hasBlock}}
+    {{yield}}
+  {{else}}
+    {{#each fields as |field|}}
+      {{th-sortable field=field label=field currentSorting=sort}}
+    {{/each}}
+  {{/if}}
+</tr>

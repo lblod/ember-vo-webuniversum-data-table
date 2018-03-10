@@ -1,0 +1,6 @@
+<div class="icon-container">
+  {{#debounced-value val=filter wait=wait immediate=false sync=true as |value|}}
+    {{input value=value placeholder=placeholder class="input-field input-field--block"}}
+    {{wu-icon "vi-magnifier" class="input-field__icon"}}
+  {{/debounced-value}}
+</div>
