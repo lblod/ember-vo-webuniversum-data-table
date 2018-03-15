@@ -2,6 +2,7 @@
 
 ## Installation
 ```bash
+ember install ember-cli-sass
 ember install @lblod/ember-vo-webuniversum
 ember install @lblod/ember-vo-webuniversum-data-table
 ```
