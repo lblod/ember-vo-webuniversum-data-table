@@ -1,6 +1,5 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-vo-webuniversum-data-table',
-  isDevelopingAddon: function() { return true; }
+  name: '@lblod/ember-vo-webuniversum-data-table'
 };

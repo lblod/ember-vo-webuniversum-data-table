@@ -1,5 +1,5 @@
 {
-  "name": "ember-vo-webuniversum-data-table",
+  "name": "@lblod/ember-vo-webuniversum-data-table",
   "version": "0.2.0",
   "description": "Extension of ember-data-table styled with VO Webuniversum.",
   "keywords": [

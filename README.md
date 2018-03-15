@@ -3,7 +3,7 @@
 ## Installation
 ```bash
 ember install @lblod/ember-vo-webuniversum
-ember install https://github.com/lblod/ember-vo-webuniversum-data-table.git
+ember install @lblod/ember-vo-webuniversum-data-table
 ```
 
 Import the styles in `app.scss`
