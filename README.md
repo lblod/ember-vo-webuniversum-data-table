@@ -14,4 +14,3 @@ Import the styles in `app.scss`
 
 ## Documentation
 Have a look at the core [ember-data-table](https://github.com/mu-semtech/ember-data-table) for the full documentation.
-
