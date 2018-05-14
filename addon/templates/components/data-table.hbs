@@ -25,14 +25,8 @@
 
 {{#if content}}
   <div class="data-table__actions data-table__actions--bottom">
-    <div class="grid">
-      <div class="col--6-12 col--8-12--s col--1-1--xs">
-      </div>
-      <div class="col--6-12 col--4-12--s col--1-1--xs">
-        {{number-pagination
-            page=page size=size nbOfItems=content.length sizeOptions=sizeOptions
-            total=content.meta.count links=content.meta.pagination}}
-      </div>
-    </div>
+    {{number-pagination
+        page=page size=size nbOfItems=content.length sizeOptions=sizeOptions
+        total=content.meta.count links=content.meta.pagination}}
   </div>
 {{/if}}
