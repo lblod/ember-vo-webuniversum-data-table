@@ -1,4 +1,4 @@
-<a class="data-table__header-title--sortable {{if isSorted " data-table__header-title--sortable-active"}}" {{action 'inverseSorting'}}>
+<a role="button" class="data-table__header-title--sortable {{if isSorted " data-table__header-title--sortable-active"}}" {{action "inverseSorting"}}>
   {{label}}
   {{#if (eq order "desc")}}
     <span class="u-visually-hidden">Oplopend sorteren</span>

@@ -5,12 +5,12 @@
         {{text-search filter=filter auto=autoSearch}}
       {{/if}}
       {{yield (hash
-        menu=(component 'data-table-menu' data-table=this)
+        menu=(component "data-table-menu" data-table=this)
           )
           this}}
     </div>
     {{yield (hash
-        content=(component 'data-table-content' content=content noDataMessage=noDataMessage enableSelection=enableSelection enableLineNumbers=enableLineNumbers onClickRow=(optional onClickRow) data-table=this class="container-flex--scroll")
+        content=(component "data-table-content" content=content noDataMessage=noDataMessage enableSelection=enableSelection enableLineNumbers=enableLineNumbers onClickRow=(optional onClickRow) data-table=this class="container-flex--scroll")
       )
         this}}
   {{else}}
@@ -19,7 +19,7 @@
         {{text-search filter=filter auto=autoSearch}}
       {{/if}}
     </div>
-    {{component 'data-table-content' content=content noDataMessage=noDataMessage enableSelection=enableSelection enableLineNumbers=enableLineNumbers onClickRow=(optional onClickRow) data-table=this class="container-flex--scroll"}}
+    {{component "data-table-content" content=content noDataMessage=noDataMessage enableSelection=enableSelection enableLineNumbers=enableLineNumbers onClickRow=(optional onClickRow) data-table=this class="container-flex--scroll"}}
   {{/if}}
 </div>
 
